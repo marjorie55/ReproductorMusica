@@ -1,0 +1,15 @@
+C:\Users\USUARIOTC\source\repos\ReproductorMusica\ReproductorMusica\obj\Debug\ReproductorMusica.csprojAssemblyReference.cache
+C:\Users\USUARIOTC\source\repos\ReproductorMusica\ReproductorMusica\obj\Debug\Interop.WMPLib.dll
+C:\Users\USUARIOTC\source\repos\ReproductorMusica\ReproductorMusica\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\USUARIOTC\source\repos\ReproductorMusica\ReproductorMusica\obj\Debug\ReproductorMusica.csproj.ResolveComReference.cache
+C:\Users\USUARIOTC\source\repos\ReproductorMusica\ReproductorMusica\obj\Debug\ReproductorMusica.Form1.resources
+C:\Users\USUARIOTC\source\repos\ReproductorMusica\ReproductorMusica\obj\Debug\ReproductorMusica.Properties.Resources.resources
+C:\Users\USUARIOTC\source\repos\ReproductorMusica\ReproductorMusica\obj\Debug\ReproductorMusica.csproj.GenerateResource.cache
+C:\Users\USUARIOTC\source\repos\ReproductorMusica\ReproductorMusica\obj\Debug\ReproductorMusica.csproj.CoreCompileInputs.cache
+C:\Users\USUARIOTC\source\repos\ReproductorMusica\ReproductorMusica\bin\Debug\ReproductorMusica.exe.config
+C:\Users\USUARIOTC\source\repos\ReproductorMusica\ReproductorMusica\bin\Debug\ReproductorMusica.exe
+C:\Users\USUARIOTC\source\repos\ReproductorMusica\ReproductorMusica\bin\Debug\ReproductorMusica.pdb
+C:\Users\USUARIOTC\source\repos\ReproductorMusica\ReproductorMusica\bin\Debug\Interop.WMPLib.dll
+C:\Users\USUARIOTC\source\repos\ReproductorMusica\ReproductorMusica\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\USUARIOTC\source\repos\ReproductorMusica\ReproductorMusica\obj\Debug\ReproductorMusica.exe
+C:\Users\USUARIOTC\source\repos\ReproductorMusica\ReproductorMusica\obj\Debug\ReproductorMusica.pdb
