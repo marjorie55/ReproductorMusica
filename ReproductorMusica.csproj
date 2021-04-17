@@ -46,6 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CircularDefinicion\ClsListaCircularBase.cs" />
+    <Compile Include="CircularDefinicion\Nodo.cs" />
     <Compile Include="Clases\Lista.cs" />
     <Compile Include="Clases\ListaOrdenada.cs" />
     <Compile Include="Clases\Nodo.cs" />
@@ -55,6 +57,11 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="listacircularejemplo\ListaCircular.cs" />
+    <Compile Include="listacircularejemplo\NodoC.cs" />
+    <Compile Include="ListaDoble\ClsListaDoble.cs" />
+    <Compile Include="ListaDoble\IteradorLista.cs" />
+    <Compile Include="ListaDoble\Nodo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -101,5 +108,6 @@
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

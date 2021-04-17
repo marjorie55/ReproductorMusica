@@ -112,7 +112,7 @@ namespace ReproductorMusica.Clases
             //enlace del nodo anterior con el siguiente
             if (actual != null)
             {
-                //distinguir si es el nodo inicial o si es 
+                //distingue si es el nodo inicial o si es 
                 //cualquier otro nodo de la lista
                 if (actual == primero)
                 {

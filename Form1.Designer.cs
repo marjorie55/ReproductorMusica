@@ -40,12 +40,16 @@ namespace ReproductorMusica
             this.btnSiguienteIz = new System.Windows.Forms.PictureBox();
             this.btnSiguienteDrch = new System.Windows.Forms.PictureBox();
             this.btnQuitar = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnAleatorio = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.Reproductor)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnPausa)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnPlay)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnSiguienteIz)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnSiguienteDrch)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnAleatorio)).BeginInit();
             this.SuspendLayout();
             // 
             // Reproductor
@@ -70,7 +74,7 @@ namespace ReproductorMusica
             // btnPausa
             // 
             this.btnPausa.Image = ((System.Drawing.Image)(resources.GetObject("btnPausa.Image")));
-            this.btnPausa.Location = new System.Drawing.Point(138, 122);
+            this.btnPausa.Location = new System.Drawing.Point(140, 122);
             this.btnPausa.Name = "btnPausa";
             this.btnPausa.Size = new System.Drawing.Size(38, 37);
             this.btnPausa.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -81,7 +85,7 @@ namespace ReproductorMusica
             // btnPlay
             // 
             this.btnPlay.Image = ((System.Drawing.Image)(resources.GetObject("btnPlay.Image")));
-            this.btnPlay.Location = new System.Drawing.Point(182, 123);
+            this.btnPlay.Location = new System.Drawing.Point(184, 123);
             this.btnPlay.Name = "btnPlay";
             this.btnPlay.Size = new System.Drawing.Size(34, 36);
             this.btnPlay.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -92,7 +96,7 @@ namespace ReproductorMusica
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(222, 124);
+            this.pictureBox2.Location = new System.Drawing.Point(225, 124);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(31, 33);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -123,7 +127,7 @@ namespace ReproductorMusica
             // btnSiguienteIz
             // 
             this.btnSiguienteIz.Image = ((System.Drawing.Image)(resources.GetObject("btnSiguienteIz.Image")));
-            this.btnSiguienteIz.Location = new System.Drawing.Point(75, 117);
+            this.btnSiguienteIz.Location = new System.Drawing.Point(77, 117);
             this.btnSiguienteIz.Name = "btnSiguienteIz";
             this.btnSiguienteIz.Size = new System.Drawing.Size(56, 50);
             this.btnSiguienteIz.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -134,7 +138,7 @@ namespace ReproductorMusica
             // btnSiguienteDrch
             // 
             this.btnSiguienteDrch.Image = ((System.Drawing.Image)(resources.GetObject("btnSiguienteDrch.Image")));
-            this.btnSiguienteDrch.Location = new System.Drawing.Point(259, 117);
+            this.btnSiguienteDrch.Location = new System.Drawing.Point(264, 117);
             this.btnSiguienteDrch.Name = "btnSiguienteDrch";
             this.btnSiguienteDrch.Size = new System.Drawing.Size(56, 50);
             this.btnSiguienteDrch.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -153,12 +157,36 @@ namespace ReproductorMusica
             this.btnQuitar.UseVisualStyleBackColor = false;
             this.btnQuitar.Click += new System.EventHandler(this.btnQuitar_Click_1);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(41, 123);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(30, 36);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 13;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // btnAleatorio
+            // 
+            this.btnAleatorio.Image = ((System.Drawing.Image)(resources.GetObject("btnAleatorio.Image")));
+            this.btnAleatorio.Location = new System.Drawing.Point(326, 125);
+            this.btnAleatorio.Name = "btnAleatorio";
+            this.btnAleatorio.Size = new System.Drawing.Size(38, 34);
+            this.btnAleatorio.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnAleatorio.TabIndex = 14;
+            this.btnAleatorio.TabStop = false;
+            this.btnAleatorio.Click += new System.EventHandler(this.btnAleatorio_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.ClientSize = new System.Drawing.Size(393, 458);
+            this.Controls.Add(this.btnAleatorio);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnQuitar);
             this.Controls.Add(this.btnSiguienteDrch);
             this.Controls.Add(this.btnSiguienteIz);
@@ -177,6 +205,8 @@ namespace ReproductorMusica
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnSiguienteIz)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnSiguienteDrch)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnAleatorio)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -194,6 +224,8 @@ namespace ReproductorMusica
         private System.Windows.Forms.PictureBox btnSiguienteIz;
         private System.Windows.Forms.PictureBox btnSiguienteDrch;
         private System.Windows.Forms.Button btnQuitar;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox btnAleatorio;
     }
 }
 
